@@ -48,6 +48,13 @@ print(fruits.index("cherry")) #2
 numbers = ['one', 'two', 'two', 'two', 'three', 'two']
 print(numbers.count('two'))  # 4
 
+num_value = [2, 3, 6, 6, 5]
+set_value = set(num_value)
+print('reverse', list(set_value))
+setValue =list(set_value)
+setValue.sort(reverse=True)
+print('reverse', setValue[2])
+
 numbers.sort() #numbers = ['one', 'two', 'two', 'two', 'three', 'two']
 print(numbers) #['one', 'three', 'two', 'two', 'two', 'two']
 
