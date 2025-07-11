@@ -24,3 +24,8 @@ programming = ['python','java','c++','c']
 programming_len = filter(lambda x: len(x)>5,programming)
 print(list(programming_len)) #output ['python']
 
+#reduce
+from functools import reduce
+nums = [1, 2, 3, 4]
+result = reduce(lambda x,y: x+y, nums)
+print(result)  # 10
